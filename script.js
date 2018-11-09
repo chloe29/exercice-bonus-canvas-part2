@@ -66,10 +66,10 @@ ctx.moveTo(400,70);
 ctx.lineTo(400,220);
 ctx.stroke();
   // Texte école du numérique
-// indique la taille et la police du texte que l'on ajoute
+// .font indique la taille et la police du texte que l'on ajoute
 ctx.font = "28px Times, Times New Roman, serif";
 ctx.fillStyle="gray";
-// permet d'ajouter un texte
+// .fillText permet d'ajouter un texte
 ctx.fillText("École du Numérique", 290,255);
 ctx.fillText("du Noyonnais", 285,280);
 ctx.fill();
